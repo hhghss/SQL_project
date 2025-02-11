@@ -2,7 +2,7 @@
 ## This has a dataset of cinema halls in KSA with ratings and comments.
 
 
-1- 
+1- Retrieves all columns and rows from the cleaned_file table in the project database:
 ```
 SELECT * FROM project.cleaned_file;
 ```
@@ -88,18 +88,3 @@ FROM project.cleaned_file
 WHERE LENGTH(best_comment) > 50;
 ```
 <img src="https://github.com/user-attachments/assets/40567837-5094-415d-8687-668314ff7c55" alt="Value Counts Output" width="400"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
